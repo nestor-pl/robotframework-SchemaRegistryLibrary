@@ -6,7 +6,7 @@ KafkaLibrary is a [Robot Framework](http://robotframework.org/) library to inter
 ## Installation
 ### Using pip
 ```bash
-      pip install -U robotframework-kafkalibrary
+      pip install -U robotframework-schemaregistrylibrary
 ```
 
 ### Manual installation

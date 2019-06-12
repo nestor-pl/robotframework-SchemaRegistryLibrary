@@ -19,7 +19,7 @@ class SchemaRegistryLibrary():
         schma_id, avro_schema, version = client.get_latest_schema(topic)
         return avro_schema
 
-    def encode_with_topic_name(self, schemaRegistryUrl, topic, record):
+    def encode_record_for_topic(self, schemaRegistryUrl, topic, record):
         serializer = self._set_serializer(schemaRegistryUrl)
         encoded = serializer.encode_record_for_topic(topic, record)
         return encoded
