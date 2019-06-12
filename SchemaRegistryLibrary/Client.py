@@ -4,7 +4,7 @@ import urllib.parse
 import json
 import sys
 from avro import schema
-import Utils
+import .Utils
 
 class SchemaRegistryClient(object):
     def __init__(self, url):
