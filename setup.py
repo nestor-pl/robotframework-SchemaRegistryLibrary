@@ -7,21 +7,21 @@ filename=join(dirname(__file__), 'SchemaRegistryLibrary', 'version.py')
 exec(compile(open(filename).read(),filename, 'exec'))
 
 DESCRIPTION = """
-Kafka support for Robot Framework.
+Schema Registry library for Robot Framework.
 """[1:-1]
 
 setup(name         = 'robotframework-schemaregistrylibrary',
       version      = VERSION,
-      description  = 'Kafka library for Robot Framework',
+      description  = 'Schema Registry for Robot Framework',
       long_description = DESCRIPTION,
-      author       = 'Marcin Mierzejewski',
-      author_email = '<mmierz@gmail.com>',
-      url          = 'https://github.com/s4int/robotframework-KafkaLibrary',
+      author       = 'Pawel Kowalski',
+      author_email = '<kowalski_pawel@hotmail.com>',
+      url          = 'https://github.com/nestor-pl/robotframework-SchemaRegistryLibrary',
       license      = 'Apache License 2.0',
-      keywords     = 'robotframework testing kafka',
+      keywords     = 'robotframework testing schema registry',
       platforms    = 'any',
       classifiers  = [
-          "Development Status :: 4 - Beta",
+          "Development Status :: 1 - Beta",
           "License :: OSI Approved :: Apache Software License",
           "Operating System :: OS Independent",
           "Programming Language :: Python",
@@ -31,5 +31,5 @@ setup(name         = 'robotframework-schemaregistrylibrary',
           'robotframework >= 2.6.0',
           'kafka-python',
       ],
-      packages    = ['KafkaLibrary'],
+      packages    = ['SchemaRegistryLibrary'],
       )
