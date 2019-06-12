@@ -21,10 +21,9 @@ setup(name         = 'robotframework-schemaregistrylibrary',
       keywords     = 'robotframework testing schema registry',
       platforms    = 'any',
       classifiers  = [
-          "Development Status :: 1 - Beta",
-          "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: 3",
+          "License :: OSI Approved :: MIT License",
           "Operating System :: OS Independent",
-          "Programming Language :: Python",
           "Topic :: Software Development :: Testing"
       ],
       install_requires = [
